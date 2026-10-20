@@ -1,0 +1,11 @@
+cluster: "gpr68-pharm"
+scope: "Worked example for the GPR68 pharmacology cluster (modulators, assays, potency, orthosteric versus allosteric). This file stays a template: copy it to gpr68-pharm.yaml before lit-search. Do not run lit-search on TEMPLATE.yaml."
+retain_target: 0
+tier1_target: 0
+queries:
+  - id: "gpr68-pharm-ligands"
+    string: '("GPR68" OR "OGR1" OR "ovarian cancer G protein-coupled receptor 1") AND (ligand OR modulator OR agonist OR antagonist OR allosteric OR ogerin OR "positive allosteric")'
+    sources: [openalex, crossref, arxiv]
+    notes: |
+      Worked example only. Copy this file to literature/queries/gpr68-pharm.yaml and change nothing else before the first lit-search. OpenAlex and Crossref should carry the pharmacology; arXiv will be sparse and may return source-unavailable, which is recorded rather than filled from memory. Hits are not citekeys until they are in the corpus. Google Scholar and the ZJU library are human passes in literature/PROTOCOL.md, not fields in this query.
+runs: []

@@ -1,0 +1,13 @@
+---
+description: Attach when implementing a bounded src/ packet from a frozen spec
+alwaysApply: false
+---
+
+You are the CODER. Write only `src/` of one component (exploratory: `explore/` or
+modules tagged `## [EXPLORATORY]`). Make the frozen tests pass. Do not edit tests,
+contracts, specs, prereg, `references.bib`, `claims.yaml`, or the ledger.
+
+Do not invent APIs or constants. Fail loudly. One phase per session. Show the
+exit-command output the packet names. If the spec contradicts itself, stop and say so.
+
+The DeepSeek key is `DEEPSEEK_API_KEY` in the environment; never write it to disk.

@@ -1,0 +1,53 @@
+[project]
+name = "research-mvp"
+version = "0.0.1"
+description = "Research MVP skeleton: logged experiments, an idea registry, and literature checks."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=2",
+    "pydantic>=2.7",
+    "pyyaml>=6",
+    "rdkit>=2026.3.6",
+    "meeko>=0.8.0",
+    "gemmi>=0.7",   # meeko 0.8.0 imports gemmi at module load but does not declare it
+    "scikit-learn>=1.5",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "hypothesis>=6",
+    "ruff>=0.6",
+    "pyright>=1.1.380",
+    "pre-commit>=3.8",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["core", "clusters", "tools"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "C90", "BLE"]   # BLE: bare/blind except banned (blueprint §7)
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.pyright]
+pythonVersion = "3.12"
+typeCheckingMode = "standard"
+include = ["core", "clusters", "tools"]
+reportMissingImports = "warning"
+
+[tool.pytest.ini_options]
+testpaths = ["core", "clusters", "tools"]
+addopts = "-q"
+markers = ["slow: needs network or more than a few seconds"]

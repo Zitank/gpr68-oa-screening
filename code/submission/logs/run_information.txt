@@ -1,0 +1,14 @@
+GPR68 competition code package — reproducibility record
+
+Current package status: preliminary computational workflow / technical validation.
+Random seed used in the planned benchmark script: 68.
+Benchmark design: same ligand panel into Pocket 1 and Pocket 2 with identical GNINA settings except pocket centre.
+Planned GNINA benchmark settings in supplied script: 22 x 22 x 22 A box, exhaustiveness 8, num_modes 5.
+Hardware requirement for supplied GNINA binary workflow: NVIDIA GPU / CUDA-compatible environment (Google Colab T4 was used during development attempts).
+Known environment issue encountered during development: some Colab runtimes lacked libcudart.so.12 for GNINA v1.3.2. This is why benchmark completion is not claimed here.
+
+Verified technical result from supplied log/output:
+Best redocking RMSD: 0.59408 A
+Top-pose affinity: -8.51 kcal/mol
+CNN pose score: 0.9790
+CNN affinity: 7.160

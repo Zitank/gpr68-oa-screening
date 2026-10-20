@@ -1,0 +1,18 @@
+---
+description: Universal pipeline rules for every role and session
+alwaysApply: true
+---
+
+Fail loudly. Raise typed errors from `core.errors`. No silent fallbacks or coercion.
+
+Never invent citations, constants, formulas or APIs. Cite only keys in
+`governance/references.bib` with a vault-verified location. Otherwise write
+`## [NEEDS-SOURCE: …]` or `## [ASSUMPTION: Ax]` and stop.
+
+Never edit frozen specs or the ledger by hand. Do not open the test split in
+exploratory mode. Stay in your role's write paths. One phase per session.
+
+Show exit-command output. Human gates (references.bib, verified items, unfreeze,
+prereg, findings, claims) are for the human only.
+
+`DEEPSEEK_API_KEY` is an env var only; never write it to disk.

@@ -1,0 +1,10 @@
+RMSD /content/lig.pdb: 0.59408
+RMSD /content/lig.pdb: 1.44075
+RMSD /content/lig.pdb: 6.5595
+RMSD /content/lig.pdb: 4.42447
+RMSD /content/lig.pdb: 4.09491
+RMSD /content/lig.pdb: 6.39974
+RMSD /content/lig.pdb: 4.26435
+RMSD /content/lig.pdb: 5.74499
+RMSD /content/lig.pdb: 4.16521
+

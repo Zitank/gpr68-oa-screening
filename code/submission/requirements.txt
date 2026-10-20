@@ -1,0 +1,9 @@
+# Versions verified for the packaged Python entry point on 2026-10-04.
+rdkit==2025.9.4
+pandas==2.2.3
+numpy==2.3.5
+openpyxl==3.1.5
+
+# External command-line tool used in the docking workflow:
+# GNINA v1.3.2 (CUDA build; not installed by pip)
+# P2Rank/PrankWeb outputs are supplied as recorded preprocessing results.

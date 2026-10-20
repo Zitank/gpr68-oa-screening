@@ -1,0 +1,87 @@
+{
+  "assumption_box_edge": "A1",
+  "box_edge_A": 24.0,
+  "chain": "R",
+  "note": "Pockets 1 and 2 use the plan centres exactly. Other pockets use the point-mean rounded to two decimals. The edge is the same for every pocket.",
+  "ph_primary": 6.8,
+  "pockets": [
+    {
+      "center_x": 145.67,
+      "center_y": 128.56,
+      "center_z": 99.49,
+      "centre_source": "plan",
+      "pocket_id": 1,
+      "role": "primary",
+      "size_x": 24.0,
+      "size_y": 24.0,
+      "size_z": 24.0
+    },
+    {
+      "center_x": 129.32,
+      "center_y": 131.62,
+      "center_z": 117.61,
+      "centre_source": "plan",
+      "pocket_id": 2,
+      "role": "negative_control",
+      "size_x": 24.0,
+      "size_y": 24.0,
+      "size_z": 24.0
+    },
+    {
+      "center_x": 134.21,
+      "center_y": 150.52,
+      "center_z": 123.79,
+      "centre_source": "point_mean_rounded_2dp",
+      "pocket_id": 3,
+      "role": "not_in_the_eight_runs",
+      "size_x": 24.0,
+      "size_y": 24.0,
+      "size_z": 24.0
+    },
+    {
+      "center_x": 131.96,
+      "center_y": 125.92,
+      "center_z": 113.04,
+      "centre_source": "point_mean_rounded_2dp",
+      "pocket_id": 4,
+      "role": "not_in_the_eight_runs",
+      "size_x": 24.0,
+      "size_y": 24.0,
+      "size_z": 24.0
+    },
+    {
+      "center_x": 127.71,
+      "center_y": 134.67,
+      "center_z": 125.97,
+      "centre_source": "point_mean_rounded_2dp",
+      "pocket_id": 5,
+      "role": "not_in_the_eight_runs",
+      "size_x": 24.0,
+      "size_y": 24.0,
+      "size_z": 24.0
+    },
+    {
+      "center_x": 136.75,
+      "center_y": 124.96,
+      "center_z": 101.52,
+      "centre_source": "point_mean_rounded_2dp",
+      "pocket_id": 6,
+      "role": "not_in_the_eight_runs",
+      "size_x": 24.0,
+      "size_y": 24.0,
+      "size_z": 24.0
+    },
+    {
+      "center_x": 142.31,
+      "center_y": 123.55,
+      "center_z": 116.38,
+      "centre_source": "point_mean_rounded_2dp",
+      "pocket_id": 7,
+      "role": "not_in_the_eight_runs",
+      "size_x": 24.0,
+      "size_y": 24.0,
+      "size_z": 24.0
+    }
+  ],
+  "structure": "8Z68"
+}

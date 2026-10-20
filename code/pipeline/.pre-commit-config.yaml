@@ -1,0 +1,30 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: ruff-check
+        language: system
+        entry: uv run ruff check --fix
+        types: [python]
+      - id: ruff-format
+        name: ruff-format
+        language: system
+        entry: uv run ruff format
+        types: [python]
+      - id: pyright
+        name: pyright
+        language: system
+        entry: uv run pyright
+        pass_filenames: false
+      - id: pytest-fast
+        name: pytest-fast
+        language: system
+        entry: uv run pytest -q -m "not slow"
+        pass_filenames: false
+        always_run: true
+      - id: ledger-append-only
+        name: ledger-append-only
+        language: system
+        entry: uv run python tools/check_ledger.py --staged
+        files: ^governance/run_ledger\.jsonl$
+        pass_filenames: false

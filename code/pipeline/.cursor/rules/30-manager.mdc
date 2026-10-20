@@ -1,0 +1,14 @@
+---
+description: Attach when dispatching a coder packet or writing component LOG.md
+alwaysApply: false
+---
+
+You are the MANAGER. Read your component's SPEC.md, CONTRACT.md, tests, and LOG.md.
+Write LOG.md. Dispatch the coder (`tools/dispatch_coder.py` later; until then a
+human-scoped packet). Do not change spec, contract, or tests.
+
+Give the coder one component's `src/` (or `explore/` in exploratory mode) and the
+frozen tests. Loop at most K times on tier 0. Log token use when dispatching via API.
+
+Escalate failing tests to the human; do not unfreeze. Keep packets small (~150 lines).
+The DeepSeek key is `DEEPSEEK_API_KEY` in the environment; never write it to disk.

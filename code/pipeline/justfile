@@ -1,0 +1,52 @@
+set shell := ["bash", "-cu"]
+
+# Track modules. Each file is owned by one packet; the root justfile stays small.
+import? 'just/ideas.just'       # idea, ideas, speculate, triage-ideas, idea-promote, ideas-digest, future-map
+import? 'just/lit.just'         # lit-*: capability, search, dedupe, corpus-check, fetch, prisma
+
+# Check tiers (blueprint §6.1). This kit implements tier0 only.
+# tier0 = every commit: format, types, fast tests, ledger append-only.
+# tier1 = end of component (contract / property / mutation) — later.
+# tier2 = end of cluster (integration, challenger) — later.
+# tier3 = before any claim (full rerun, prereg, human audit) — later.
+
+default:
+    @{{ just_executable() }} --list
+
+sync:
+    uv sync --all-groups
+
+fmt:
+    uv run ruff format .
+
+fmt-check:
+    uv run ruff format --check .
+
+lint:
+    uv run ruff check . && uv run pyright
+
+test:
+    uv run pytest -q -m "not slow"
+
+test-slow:
+    uv run pytest -q
+
+ledger-check:
+    uv run python tools/check_ledger.py
+
+tier0: fmt-check lint test ledger-check
+
+smoke:
+    uv run python smoke.py
+
+hooks:
+    uv run pre-commit install
+
+tier1:
+    echo "not implemented in Phase 0"
+
+tier2:
+    echo "not implemented in Phase 0"
+
+tier3:
+    echo "not implemented in Phase 0"

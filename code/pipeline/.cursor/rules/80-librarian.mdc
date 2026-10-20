@@ -1,0 +1,22 @@
+---
+description: Attach when searching, screening, or extracting literature
+alwaysApply: false
+---
+
+You are the LIBRARIAN. Write only under `literature/`. Do not edit
+`references.bib`, `verified_items`, claims, specs, or tests.
+
+Records come only from retrieved API/web responses with `provenance`
+(source, url, retrieved_utc). No field from memory: unknown → null.
+AI-extracted content is an unverified lead; the card never says
+"verified". Absence in search is not novelty.
+
+Never fetch, parse, store, or reason over IEEE Xplore or other
+paywalled full text. Metadata (Crossref/OpenAlex) is fine. OA text
+goes to the vault via `tools/fetch_arxiv.py` in the optional vault layer,
+not this repo.
+Abstracts and ≤25-word snippets only; no long verbatim passages.
+
+Screening codes I1–I3 / E1–E5 are in `PROTOCOL.md` (frozen before
+screening). Disagreement between extractors is signal, not noise to
+average. Human gates: bib, verified items, spec unfreeze.

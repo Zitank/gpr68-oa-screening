@@ -1,0 +1,150 @@
+{
+  "1": {
+    "grid_points": 15625,
+    "spacing_A": 1.0,
+    "occupy_A": 2.0,
+    "free_count": 5337,
+    "free_fraction": 0.341568,
+    "free_fraction_occupy_1.5A": 0.598528,
+    "occupied_fraction": 0.658432,
+    "center": [
+      145.67,
+      128.56,
+      99.49
+    ],
+    "point_centroid": [
+      145.6723214285714,
+      128.55596428571425,
+      99.48853571428572
+    ],
+    "centroid_minus_center_A": 0.004880589417414125,
+    "point_count": 28,
+    "points_inside_box": 28,
+    "points_outside_box": 0,
+    "point_span": [
+      2.9979999999999905,
+      7.532999999999987,
+      9.631
+    ],
+    "nearest_heavy_to_center_A": 2.7202784783914957,
+    "nearest_heavy_to_centroid_A": 2.720490009461857,
+    "receptor_heavy_in_box": 643,
+    "receptor_heavy_within_8A_of_centroid": 105,
+    "receptor_heavy_within_8A_of_center": 105,
+    "pocket_point_min_dist_to_heavy_A": 1.9944518043813497,
+    "pocket_point_median_dist_to_heavy_A": 2.770834183662454,
+    "gs_heavy_in_box": 0,
+    "gs_heavy_within_8A_of_centroid": 0,
+    "axial_offset_center_A": 15.128701758630656,
+    "axial_offset_centroid_A": 15.132898132856901,
+    "radial_center_A": 3.596549891494235,
+    "radial_centroid_A": 3.5956169672474494,
+    "free_fraction_within_4A_of_points": 0.33671742808798644,
+    "grid_points_within_4A_of_points": 1182,
+    "free_count_within_4A_of_points": 398,
+    "enclosed_vs_exterior": {
+      "free": 5337,
+      "exterior_free": 5288,
+      "enclosed_free": 49,
+      "enclosed_fraction": 0.003136,
+      "center_is_free": true,
+      "center_is_enclosed": false,
+      "pca_stdev_A": [
+        3.3886706725294435,
+        1.102389801664807,
+        0.580995970868578
+      ],
+      "thin_axis_abs_dot_membrane": 0.1658802212889604,
+      "clearance_gt3_fraction": 0.088768
+    }
+  },
+  "2": {
+    "grid_points": 15625,
+    "spacing_A": 1.0,
+    "occupy_A": 2.0,
+    "free_count": 8737,
+    "free_fraction": 0.559168,
+    "free_fraction_occupy_1.5A": 0.734272,
+    "occupied_fraction": 0.440832,
+    "center": [
+      129.32,
+      131.62,
+      117.61
+    ],
+    "point_centroid": [
+      129.31550000000001,
+      131.6220277777778,
+      117.60755555555556
+    ],
+    "centroid_minus_center_A": 0.00550792078354567,
+    "point_count": 36,
+    "points_inside_box": 36,
+    "points_outside_box": 0,
+    "point_span": [
+      7.603000000000009,
+      5.462999999999994,
+      10.152999999999992
+    ],
+    "nearest_heavy_to_center_A": 4.053835961160736,
+    "nearest_heavy_to_centroid_A": 4.056726492776063,
+    "receptor_heavy_in_box": 409,
+    "receptor_heavy_within_8A_of_centroid": 69,
+    "receptor_heavy_within_8A_of_center": 69,
+    "pocket_point_min_dist_to_heavy_A": 3.1499999999999773,
+    "pocket_point_median_dist_to_heavy_A": 3.3001363580019647,
+    "gs_heavy_in_box": 0,
+    "gs_heavy_within_8A_of_centroid": 0,
+    "axial_offset_center_A": -5.083534245315168,
+    "axial_offset_centroid_A": -5.084278250004104,
+    "radial_center_A": 10.47754571604859,
+    "radial_centroid_A": 10.479279848332455,
+    "free_fraction_within_4A_of_points": 0.6191358024691358,
+    "grid_points_within_4A_of_points": 1620,
+    "free_count_within_4A_of_points": 1003,
+    "enclosed_vs_exterior": {
+      "free": 8737,
+      "exterior_free": 8698,
+      "enclosed_free": 39,
+      "enclosed_fraction": 0.002496,
+      "center_is_free": true,
+      "center_is_enclosed": false,
+      "pca_stdev_A": [
+        2.754169218274703,
+        1.8189386130316345,
+        1.2752928541060014
+      ],
+      "thin_axis_abs_dot_membrane": 0.3003811713917002,
+      "clearance_gt3_fraction": 0.365376
+    }
+  },
+  "method": {
+    "receptor": "data/pocket/chainR.pdb heavy atoms (2174, no hydrogens)",
+    "points": "/home/main/Vault/02-Projects/Project_S/8Z68_GPR68_only.pdb_points.pdb",
+    "grid": "1.0 \u00c5, inclusive 25^3 = 15625 points, box edge 24 \u00c5",
+    "occupied": "grid point within 2.0 \u00c5 of any receptor heavy atom",
+    "enclosed": "free cell not 6-connected to the box boundary",
+    "ligand_clearance": "grid point more than 3.0 \u00c5 from any receptor heavy atom",
+    "axis": "unit vector from chain A (G\u03b1) centroid through chain R C\u03b1 centroid, pointing away from G\u03b1 toward the extracellular N-terminus",
+    "label": "EXPLORATORY"
+  },
+  "poses_heavy_atom_centroid_distance_to_box_centre_A": {
+    "ogerin": {
+      "1": 14.84,
+      "2": 4.7
+    },
+    "ms48107": {
+      "1": 9.68,
+      "2": 3.17
+    },
+    "lorazepam": {
+      "1": 13.84,
+      "2": 8.93
+    },
+    "zinc32547799": {
+      "1": 13.32,
+      "2": 9.0
+    }
+  },
+  "verdict": "Real observation about this active-state conformation, plus a Vina surface-groove bias. Not a box-placement error and not Gs filling the site. Pocket 1 was not re-docked.",
+  "rerun": false
+}

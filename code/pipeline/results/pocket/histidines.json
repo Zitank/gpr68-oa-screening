@@ -1,0 +1,422 @@
+{
+  "assumption": "A5",
+  "commands": {
+    "pdbqt": [
+      "/home/main/Vault/02-Projects/Project_S/repo/.pixi/envs/default/bin/obabel",
+      "/home/main/Vault/02-Projects/Project_S/repo/data/pocket/chainR_pH6.8.pdb",
+      "-O",
+      "/home/main/Vault/02-Projects/Project_S/repo/data/pocket/receptor_pH6.8.pdbqt",
+      "-xr"
+    ],
+    "ph_6_8": [
+      "/home/main/Vault/02-Projects/Project_S/repo/.pixi/envs/default/bin/obabel",
+      "/home/main/Vault/02-Projects/Project_S/repo/data/pocket/chainR.pdb",
+      "-O",
+      "/home/main/Vault/02-Projects/Project_S/repo/data/pocket/chainR_pH6.8.pdb",
+      "-p",
+      "6.8"
+    ],
+    "ph_7_4": [
+      "/home/main/Vault/02-Projects/Project_S/repo/.pixi/envs/default/bin/obabel",
+      "/home/main/Vault/02-Projects/Project_S/repo/data/pocket/chainR.pdb",
+      "-O",
+      "/home/main/Vault/02-Projects/Project_S/repo/data/pocket/chainR_pH7.4.pdb",
+      "-p",
+      "7.4"
+    ]
+  },
+  "engine": "openbabel",
+  "flipped": [
+    {
+      "ph_6_8": "HIP",
+      "ph_7_4": "HID",
+      "resseq": 20
+    },
+    {
+      "ph_6_8": "HIP",
+      "ph_7_4": "HID",
+      "resseq": 84
+    },
+    {
+      "ph_6_8": "HIP",
+      "ph_7_4": "HID",
+      "resseq": 89
+    },
+    {
+      "ph_6_8": "HIP",
+      "ph_7_4": "HID",
+      "resseq": 130
+    },
+    {
+      "ph_6_8": "HIP",
+      "ph_7_4": "HID",
+      "resseq": 159
+    },
+    {
+      "ph_6_8": "HIP",
+      "ph_7_4": "HID",
+      "resseq": 169
+    },
+    {
+      "ph_6_8": "HIP",
+      "ph_7_4": "HID",
+      "resseq": 245
+    },
+    {
+      "ph_6_8": "HIP",
+      "ph_7_4": "HID",
+      "resseq": 294
+    }
+  ],
+  "method": "OpenBabel -p writes hydrogens named 'H'. State is the heavy atom nearest each hydrogen: HID if only ND1, HIE if only NE2, HIP if both, UNPROTONATED if neither imidazole nitrogen has a hydrogen. Atoms are not moved.",
+  "pdbqt_tool": "OpenBabel -xr. Meeko's receptor templates reject this protonated PDB because every hydrogen is named H, so the production receptor PDBQT is the OpenBabel file. Vina scoring uses atom types; OpenBabel writes partial charges as 0.",
+  "ph_comparison": 7.4,
+  "ph_primary": 6.8,
+  "states_ph_6_8": [
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 2,
+        "CE1": 1,
+        "N": 1
+      },
+      "resname": "HIS",
+      "resseq": 17,
+      "state": "UNPROTONATED"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1,
+        "NE2": 1
+      },
+      "resname": "HIS",
+      "resseq": 20,
+      "state": "HIP"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1,
+        "NE2": 1
+      },
+      "resname": "HIS",
+      "resseq": 84,
+      "state": "HIP"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1,
+        "NE2": 1
+      },
+      "resname": "HIS",
+      "resseq": 89,
+      "state": "HIP"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 2,
+        "CE1": 1,
+        "N": 1
+      },
+      "resname": "HIS",
+      "resseq": 125,
+      "state": "UNPROTONATED"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1,
+        "NE2": 1
+      },
+      "resname": "HIS",
+      "resseq": 130,
+      "state": "HIP"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1,
+        "NE2": 1
+      },
+      "resname": "HIS",
+      "resseq": 159,
+      "state": "HIP"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1,
+        "NE2": 1
+      },
+      "resname": "HIS",
+      "resseq": 169,
+      "state": "HIP"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 2,
+        "CE1": 1,
+        "N": 1
+      },
+      "resname": "HIS",
+      "resseq": 175,
+      "state": "UNPROTONATED"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 2,
+        "CE1": 1,
+        "N": 1
+      },
+      "resname": "HIS",
+      "resseq": 216,
+      "state": "UNPROTONATED"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1,
+        "NE2": 1
+      },
+      "resname": "HIS",
+      "resseq": 245,
+      "state": "HIP"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 2,
+        "CE1": 1,
+        "N": 1
+      },
+      "resname": "HIS",
+      "resseq": 269,
+      "state": "UNPROTONATED"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1,
+        "NE2": 1
+      },
+      "resname": "HIS",
+      "resseq": 294,
+      "state": "HIP"
+    }
+  ],
+  "states_ph_7_4": [
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 2,
+        "CE1": 1,
+        "N": 1
+      },
+      "resname": "HIS",
+      "resseq": 17,
+      "state": "UNPROTONATED"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1
+      },
+      "resname": "HIS",
+      "resseq": 20,
+      "state": "HID"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1
+      },
+      "resname": "HIS",
+      "resseq": 84,
+      "state": "HID"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1
+      },
+      "resname": "HIS",
+      "resseq": 89,
+      "state": "HID"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 2,
+        "CE1": 1,
+        "N": 1
+      },
+      "resname": "HIS",
+      "resseq": 125,
+      "state": "UNPROTONATED"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1
+      },
+      "resname": "HIS",
+      "resseq": 130,
+      "state": "HID"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1
+      },
+      "resname": "HIS",
+      "resseq": 159,
+      "state": "HID"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1
+      },
+      "resname": "HIS",
+      "resseq": 169,
+      "state": "HID"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 2,
+        "CE1": 1,
+        "N": 1
+      },
+      "resname": "HIS",
+      "resseq": 175,
+      "state": "UNPROTONATED"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 2,
+        "CE1": 1,
+        "N": 1
+      },
+      "resname": "HIS",
+      "resseq": 216,
+      "state": "UNPROTONATED"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1
+      },
+      "resname": "HIS",
+      "resseq": 245,
+      "state": "HID"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 2,
+        "CE1": 1,
+        "N": 1
+      },
+      "resname": "HIS",
+      "resseq": 269,
+      "state": "UNPROTONATED"
+    },
+    {
+      "parents": {
+        "CA": 1,
+        "CB": 2,
+        "CD2": 1,
+        "CE1": 1,
+        "N": 1,
+        "ND1": 1
+      },
+      "resname": "HIS",
+      "resseq": 294,
+      "state": "HID"
+    }
+  ],
+  "unprotonated_at_both_ph": [
+    17,
+    125,
+    175,
+    216,
+    269
+  ]
+}

@@ -1,0 +1,18 @@
+# pixi owns external binaries only (smina, R, quarto, openbabel). Python stays in uv (pyproject.toml).
+[workspace]
+name = "gpr68-tools"
+channels = ["conda-forge", "bioconda"]
+platforms = ["linux-64"]
+
+[dependencies]
+smina = "==2017.11.9"
+r-base = "4.5.*"   # r-pwr/r-drc/r-tidyverse have no R 4.6 builds on conda-forge yet
+r-tidyverse = "==2.0.0"
+r-drc = "==3.0_1"
+r-pwr = "==1.3_0"
+quarto = "==1.9.38"
+openbabel = "==3.2.1"
+
+# Keeps install.packages() inside the project; R must never write to ~/R.
+[activation.env]
+R_LIBS_USER = "$PIXI_PROJECT_ROOT/.rlibs"

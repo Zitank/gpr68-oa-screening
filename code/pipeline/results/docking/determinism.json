@@ -1,0 +1,193 @@
+{
+  "match": true,
+  "original": {
+    "best_score_kcal_mol": -2.54612637,
+    "center_x": 145.67,
+    "center_y": 128.56,
+    "center_z": 99.49,
+    "command": [
+      "/home/main/Vault/02-Projects/Project_S/repo/.pixi/envs/default/bin/smina",
+      "-r",
+      "/home/main/Vault/02-Projects/Project_S/repo/data/pocket/receptor_pH6.8.pdbqt",
+      "-l",
+      "/home/main/Vault/02-Projects/Project_S/repo/data/docking/ligands/lorazepam.pdbqt",
+      "--center_x",
+      "145.67",
+      "--center_y",
+      "128.56",
+      "--center_z",
+      "99.49",
+      "--size_x",
+      "24.00",
+      "--size_y",
+      "24.00",
+      "--size_z",
+      "24.00",
+      "--exhaustiveness",
+      "16",
+      "--num_modes",
+      "9",
+      "--energy_range",
+      "3.00",
+      "--seed",
+      "1",
+      "--cpu",
+      "1",
+      "-o",
+      "/home/main/Vault/02-Projects/Project_S/repo/results/docking/runs/lorazepam_p1/out.pdbqt"
+    ],
+    "config_hash": "795d0fb0e20df91537362f8277815b8a0a39ac0ba662e4fb757c811241903fb6",
+    "cpu": 1,
+    "energy_range": 3.0,
+    "engine": "smina",
+    "exhaustiveness": 16,
+    "ligand": "lorazepam",
+    "modes": [
+      {
+        "affinity_kcal_mol": -2.54612637,
+        "mode": 1,
+        "rmsd_lb": 0.0,
+        "rmsd_ub": 0.0
+      },
+      {
+        "affinity_kcal_mol": -2.48377037,
+        "mode": 2,
+        "rmsd_lb": 2.808,
+        "rmsd_ub": 4.187
+      },
+      {
+        "affinity_kcal_mol": -1.75060666,
+        "mode": 3,
+        "rmsd_lb": 10.69,
+        "rmsd_ub": 12.556
+      },
+      {
+        "affinity_kcal_mol": -0.581431866,
+        "mode": 4,
+        "rmsd_lb": 10.844,
+        "rmsd_ub": 11.981
+      },
+      {
+        "affinity_kcal_mol": 0.0472034961,
+        "mode": 5,
+        "rmsd_lb": 10.867,
+        "rmsd_ub": 12.321
+      },
+      {
+        "affinity_kcal_mol": 0.359519601,
+        "mode": 6,
+        "rmsd_lb": 10.621,
+        "rmsd_ub": 12.112
+      }
+    ],
+    "n_modes": 6,
+    "num_modes": 9,
+    "output": "/home/main/Vault/02-Projects/Project_S/repo/results/docking/runs/lorazepam_p1/out.pdbqt",
+    "ph": 6.8,
+    "pocket_id": 1,
+    "pocket_role": "primary",
+    "pubchem_cid": "3958",
+    "run_id": "49f470af-84d9-4a4c-b201-bac519c61689",
+    "scoring": "vina-1.1.2",
+    "seconds": 198.76332255800025,
+    "seed": 1,
+    "size_x": 24.0,
+    "size_y": 24.0,
+    "size_z": 24.0
+  },
+  "repeat": {
+    "best_score_kcal_mol": -2.54612637,
+    "center_x": 145.67,
+    "center_y": 128.56,
+    "center_z": 99.49,
+    "command": [
+      "/home/main/Vault/02-Projects/Project_S/repo/.pixi/envs/default/bin/smina",
+      "-r",
+      "/home/main/Vault/02-Projects/Project_S/repo/data/pocket/receptor_pH6.8.pdbqt",
+      "-l",
+      "/home/main/Vault/02-Projects/Project_S/repo/data/docking/ligands/lorazepam.pdbqt",
+      "--center_x",
+      "145.67",
+      "--center_y",
+      "128.56",
+      "--center_z",
+      "99.49",
+      "--size_x",
+      "24.00",
+      "--size_y",
+      "24.00",
+      "--size_z",
+      "24.00",
+      "--exhaustiveness",
+      "16",
+      "--num_modes",
+      "9",
+      "--energy_range",
+      "3.00",
+      "--seed",
+      "1",
+      "--cpu",
+      "1",
+      "-o",
+      "/home/main/Vault/02-Projects/Project_S/repo/results/docking/runs/lorazepam_p1_repeat/out.pdbqt"
+    ],
+    "config_hash": "795d0fb0e20df91537362f8277815b8a0a39ac0ba662e4fb757c811241903fb6",
+    "cpu": 1,
+    "energy_range": 3.0,
+    "engine": "smina",
+    "exhaustiveness": 16,
+    "ligand": "lorazepam",
+    "modes": [
+      {
+        "affinity_kcal_mol": -2.54612637,
+        "mode": 1,
+        "rmsd_lb": 0.0,
+        "rmsd_ub": 0.0
+      },
+      {
+        "affinity_kcal_mol": -2.48377037,
+        "mode": 2,
+        "rmsd_lb": 2.808,
+        "rmsd_ub": 4.187
+      },
+      {
+        "affinity_kcal_mol": -1.75060666,
+        "mode": 3,
+        "rmsd_lb": 10.69,
+        "rmsd_ub": 12.556
+      },
+      {
+        "affinity_kcal_mol": -0.581431866,
+        "mode": 4,
+        "rmsd_lb": 10.844,
+        "rmsd_ub": 11.981
+      },
+      {
+        "affinity_kcal_mol": 0.0472034961,
+        "mode": 5,
+        "rmsd_lb": 10.867,
+        "rmsd_ub": 12.321
+      },
+      {
+        "affinity_kcal_mol": 0.359519601,
+        "mode": 6,
+        "rmsd_lb": 10.621,
+        "rmsd_ub": 12.112
+      }
+    ],
+    "n_modes": 6,
+    "num_modes": 9,
+    "output": "/home/main/Vault/02-Projects/Project_S/repo/results/docking/runs/lorazepam_p1_repeat/out.pdbqt",
+    "ph": 6.8,
+    "pocket_id": 1,
+    "pocket_role": "primary",
+    "pubchem_cid": "3958",
+    "run_id": "52e99abc-ca0d-4008-b319-c8f73a9a8ffe",
+    "scoring": "vina-1.1.2",
+    "seconds": 64.15577802100051,
+    "seed": 1,
+    "size_x": 24.0,
+    "size_y": 24.0,
+    "size_z": 24.0
+  }
+}

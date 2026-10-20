@@ -1,0 +1,11 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 139030523,
+        "MolecularFormula": "C23H20FN5O2",
+        "SMILES": "C1=CC=C(C=C1)OC2=CC=C(C=C2)CNC3=NC(=NC(=N3)N)C4=C(C=CC=C4F)CO"
+      }
+    ]
+  }
+}

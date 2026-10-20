@@ -1,0 +1,63 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,PubChem Standard Value,IC50,EC50 Qualifier,EC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,FLOAT,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","Qualifier (e.g. >, <, =) for PubChem Standard Value","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.",,"Qualifier (e.g. >, <, =) for EC50",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,,MICROMOLAR,NANOMOLAR,,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,,TRUE,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,TRUE,,,,,,,
+1,53785992,3561957,C1=CC=C(C=C1)C2=NNC3(S2)C4=CC=CC=C4NC3=O,Active,,,,EC50,,2.744,,,2744,Q15743,BDBM23992,Ovarian cancer G-protein coupled receptor 1
+2,53785994,3136575,CC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC=C4,Active,,,,IC50,,0.76,760,,,Q15743,BDBM23995,Ovarian cancer G-protein coupled receptor 1
+3,53785994,3136575,CC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC=C4,Active,,,,IC50,,6.4,6400,,,Q92633,BDBM23995,Lysophosphatidic acid receptor 1
+4,53785995,3136571,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC=C4,Active,,,,EC50,,1.347,,,1347,Q15743,BDBM23996,Ovarian cancer G-protein coupled receptor 1
+5,53785995,3136571,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC=C4,Active,,,,IC50,,0.71,710,,,Q15743,BDBM23996,Ovarian cancer G-protein coupled receptor 1
+6,53785997,3136666,CC1=CC=C(C=C1)C2=NNC3(S2)C4=CC=CC=C4NC3=O,Active,,,,EC50,,1.06,,,1060,Q15743,BDBM23998,Ovarian cancer G-protein coupled receptor 1
+7,53786001,24753935,COC1=CC=C(C=C1)C2=NNC3(S2)C4=CC=CC=C4NC3=O,Active,,,,EC50,,1.44,,,1440,Q15743,BDBM24002,Ovarian cancer G-protein coupled receptor 1
+8,53786003,24752936,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=C(C=C4)OC,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM24004,Ovarian cancer G-protein coupled receptor 1
+9,53786013,3800952,CN1C2=CC=CC=C2C3(C1=O)NN=C(S3)C4=CC=CC=C4,Active,,,,IC50,,0.81,810,,,Q15743,BDBM24014,Ovarian cancer G-protein coupled receptor 1
+10,513521957,141480614,C1=CC=C(C=C1)C2=NNC3(S2)C4=C(C=CC(=C4)Cl)NC3=O,Active,,,,EC50,,1.62,,,1620,Q15743,BDBM712448,Ovarian cancer G-protein coupled receptor 1
+11,513521959,155713510,C1=CC=C(C=C1)C2=NNC3(S2)C4=C(C=CC(=C4)F)NC3=O,Active,,,,EC50,,2.839,,,2839,Q15743,BDBM712450,Ovarian cancer G-protein coupled receptor 1
+12,513521961,164804882,COC1=CC=C(C=C1)C2=NNC3(S2)C4=C(C=CC(=C4)F)NC3=O,Active,,,,EC50,,0.756,,,756,Q15743,BDBM712452,Ovarian cancer G-protein coupled receptor 1
+13,513521962,11493399,C1=CC=C2C(=C1)C3(C(=O)N2)NN=C(S3)C4=CC=C(C=C4)Cl,Active,,,,EC50,<,0.4,,<,400,Q15743,BDBM712453,Ovarian cancer G-protein coupled receptor 1
+14,513521963,155713509,C1=CC(=CC=C1C2=NNC3(S2)C4=C(C=CC(=C4)F)NC3=O)Cl,Active,,,,EC50,,1.831,,,1831,Q15743,BDBM712454,Ovarian cancer G-protein coupled receptor 1
+15,513521965,164804883,CC1=CC=C(C=C1)C2=NNC3(S2)C4=C(C=CC(=C4)Cl)NC3=O,Active,,,,EC50,,0.785,,,785,Q15743,BDBM712456,Ovarian cancer G-protein coupled receptor 1
+16,513521966,164804887,COC1=CC=C(C=C1)C2=NNC3(S2)C4=C(C=CC(=C4)CO)NC3=O,Active,,,,EC50,,0.9,,,900,Q15743,BDBM712457,Ovarian cancer G-protein coupled receptor 1
+17,513521967,155223864,CC1=CC=C(C=C1)C2=NNC3(S2)C4=C(C=CC(=C4)F)NC3=O,Active,,,,EC50,,0.985,,,985,Q15743,BDBM712458,Ovarian cancer G-protein coupled receptor 1
+18,513521968,155223866,C1=CC(=CC=C1C2=NNC3(S2)C4=C(C=CC(=C4)Cl)NC3=O)Cl,Active,,,,EC50,<,0.4,,<,400,Q15743,BDBM712459,Ovarian cancer G-protein coupled receptor 1
+19,513521969,155223865,C1=CC=C2C(=C1)C3(C(=O)N2)NN=C(S3)C4=CC=C(C=C4)F,Active,,,,EC50,,3.997,,,3997,Q15743,BDBM712460,Ovarian cancer G-protein coupled receptor 1
+20,513521970,155713490,C1=CC(=CC=C1C2=NNC3(S2)C4=C(C=CC(=C4)Cl)NC3=O)F,Active,,,,EC50,,0.796,,,796,Q15743,BDBM712461,Ovarian cancer G-protein coupled receptor 1
+21,513521971,164804891,C1=CC(=CC=C1C2=NNC3(S2)C4=C(C=CC(=C4)CO)NC3=O)Cl,Active,,,,EC50,<,0.4,,<,400,Q15743,BDBM712462,Ovarian cancer G-protein coupled receptor 1
+22,513521972,155713519,C1=CC=C2C(=C1)C=CC=C2C3=NNC4(S3)C5=C(C=CC(=C5)Cl)NC4=O,Active,,,,EC50,,5.036,,,5036,Q15743,BDBM712463,Ovarian cancer G-protein coupled receptor 1
+23,513521973,155223872,COC1=CC2=C(C=C1)C=C(C=C2)C3=NNC4(S3)C5=C(C=CC(=C5)Cl)NC4=O,Inactive,,,,EC50,,45.868,,,45868,Q15743,BDBM712464,Ovarian cancer G-protein coupled receptor 1
+24,513521974,155223871,COC1=CC2=C(C=C1)C=C(C=C2)C3=NNC4(S3)C5=C(C=CC(=C5)F)NC4=O,Active,,,,EC50,,0.708,,,708,Q15743,BDBM712465,Ovarian cancer G-protein coupled receptor 1
+25,513521975,155223870,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC5=C(C=C4)C=C(C=C5)OC,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM712466,Ovarian cancer G-protein coupled receptor 1
+26,513521977,164804890,CC(=CCN1C2=C(C=C(C=C2)Cl)C3(C1=O)NN=C(S3)C4=CC=C(C=C4)OC)C,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM712468,Ovarian cancer G-protein coupled receptor 1
+27,513521978,164804892,CC(=CCN1C2=CC=CC=C2C3(C1=O)NN=C(S3)C4=CC=C(C=C4)OC)C,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM712469,Ovarian cancer G-protein coupled receptor 1
+28,513521979,164804894,CC(=CCN1C2=C(C=C(C=C2)Cl)C3(C1=O)NN=C(S3)C4=CC=C(C=C4)Cl)C,Active,,,,EC50,,9.082,,,9082,Q15743,BDBM712470,Ovarian cancer G-protein coupled receptor 1
+29,513521980,164804885,CC(=CCN1C2=C(C=C(C=C2)Cl)C3(C1=O)NN=C(S3)C4=CC=CC5=CC=CC=C54)C,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM712471,Ovarian cancer G-protein coupled receptor 1
+30,513521981,164804888,CC(=CCN1C2=CC=CC=C2C3(C1=O)NN=C(S3)C4=CC=CC5=CC=CC=C54)C,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM712472,Ovarian cancer G-protein coupled receptor 1
+31,513521982,164804893,CC(=CCN1C2=CC=CC=C2C3(C1=O)NN=C(S3)C4=CC5=C(C=C4)C=C(C=C5)OC)C,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM712473,Ovarian cancer G-protein coupled receptor 1
+32,513521983,164804886,CC(=CCN1C2=C(C=C(C=C2)Cl)C3(C1=O)NN=C(S3)C4=CC5=C(C=C4)C=C(C=C5)OC)C,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM712474,Ovarian cancer G-protein coupled receptor 1
+33,513521984,155223877,COC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC5=C4N=CC=C5,Active,,,,EC50,,3.69,,,3690,Q15743,BDBM712475,Ovarian cancer G-protein coupled receptor 1
+34,513521985,155223888,COC(=O)C1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC=C4,Active,,,,EC50,,2.263,,,2263,Q15743,BDBM712476,Ovarian cancer G-protein coupled receptor 1
+35,513521986,155223889,COC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC5=C(C=C4)N=CC=C5,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM712477,Ovarian cancer G-protein coupled receptor 1
+36,513521987,155223890,COC(=O)C1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC5=C4N=CC=C5,Active,,,,EC50,,2.915,,,2915,Q15743,BDBM712478,Ovarian cancer G-protein coupled receptor 1
+37,513521988,155213335,C1=CC2=C(C=CC(=C2)C3=NNC4(S3)C5=C(C=CC(=C5)F)NC4=O)N=C1,Inactive,,,,EC50,,10,,,10000,Q15743,BDBM712479,Ovarian cancer G-protein coupled receptor 1
+38,513521989,155223873,C1=CC2=C(C(=C1)C3=NNC4(S3)C5=C(C=CC(=C5)F)NC4=O)N=CC=C2,Active,,,,EC50,,1.466,,,1466,Q15743,BDBM712480,Ovarian cancer G-protein coupled receptor 1
+39,513521990,155223909,COC(=O)C1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CN=CC=C4,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM712481,Ovarian cancer G-protein coupled receptor 1
+40,513521991,155223907,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CN=CC=C4,Inactive,,,,EC50,>,10,,>,10000,Q15743,BDBM712482,Ovarian cancer G-protein coupled receptor 1
+41,513521992,155213215,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC(=NC=C4)OC,Active,,,,EC50,,1.089,,,1089,Q15743,BDBM712483,Ovarian cancer G-protein coupled receptor 1
+42,513521993,155223910,COC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CN=CC=C4,Active,,,,EC50,,1.858,,,1858,Q15743,BDBM712484,Ovarian cancer G-protein coupled receptor 1
+43,513521994,155223854,COC1=CC2=C(C=C1)C3(C(=O)N2)NN=C(S3)C4=CC(=NC=C4)OC,Active,,,,EC50,,1.436,,,1436,Q15743,BDBM712485,Ovarian cancer G-protein coupled receptor 1
+44,513521995,155223913,C1=CC=C(C=C1)C2=NNC3(S2)C4=C(C=CC(=C4)S(=O)(=O)N)NC3=O,Active,,,,EC50,,0.822,,,822,Q15743,BDBM712486,Ovarian cancer G-protein coupled receptor 1
+45,513521996,155223911,C1=CC(=CN=C1)C2=NNC3(S2)C4=C(C=CC(=C4)S(=O)(=O)N)NC3=O,Active,,,,EC50,,0.9,,,900,Q15743,BDBM712487,Ovarian cancer G-protein coupled receptor 1
+46,513521997,155223912,C1=CC2=C(C=CC(=C2)C3=NNC4(S3)C5=C(C=CC(=C5)C(=O)O)NC4=O)N=C1,Active,,,,EC50,,4.77,,,4770,Q15743,BDBM712488,Ovarian cancer G-protein coupled receptor 1
+47,513521998,155223885,C1=CC(=CN=C1)C2=NNC3(S2)C4=C(C=CC(=C4)F)NC3=O,Active,,,,EC50,,3.582,,,3582,Q15743,BDBM712489,Ovarian cancer G-protein coupled receptor 1
+48,513521999,155223853,COC1=NC=CC(=C1)C2=NNC3(S2)C4=C(C=CC(=C4)F)NC3=O,Active,,,,EC50,,0.805,,,805,Q15743,BDBM712490,Ovarian cancer G-protein coupled receptor 1
+49,513522000,155223886,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC5=C4N=CC=C5,Active,,,,EC50,<,0.4,,<,400,Q15743,BDBM712491,Ovarian cancer G-protein coupled receptor 1
+50,513522001,155223915,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=NC=C4,Active,,,,EC50,<,0.4,,<,400,Q15743,BDBM712492,Ovarian cancer G-protein coupled receptor 1
+51,513522002,155223906,COC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC(=NC=C4)OC,Active,,,,EC50,,3.52,,,3520,Q15743,BDBM712493,Ovarian cancer G-protein coupled receptor 1
+52,513522005,5221765,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC=C4O,Active,,,,IC50,,3.4,3400,,,Q15743,BDBM712496,Ovarian cancer G-protein coupled receptor 1
+53,513522005,5221765,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC=C4O,Active,,,,IC50,,1.4,1400,,,Q92633,BDBM712496,Lysophosphatidic acid receptor 1
+54,513522006,2860841,CN1C2=CC=CC=C2C3(C1=O)NN=C(S3)C4=CC=CC5=CC=CC=C54,Active,,,,IC50,,1.5,1500,,,Q15743,BDBM712497,Ovarian cancer G-protein coupled receptor 1
+55,513526133,2861516,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC5=CC=CC=C54,Active,,,,EC50,,0.17,,,170,Q15743,BDBM710545,Ovarian cancer G-protein coupled receptor 1
+56,513526133,2861516,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC5=CC=CC=C54,Active,,,,IC50,,0.16,160,,,Q15743,BDBM710545,Ovarian cancer G-protein coupled receptor 1
+57,513526133,2861516,CCC1=CC2=C(C=C1)NC(=O)C23NN=C(S3)C4=CC=CC5=CC=CC=C54,Active,,,,IC50,,8.7,8700,,,Q92633,BDBM710545,Lysophosphatidic acid receptor 1

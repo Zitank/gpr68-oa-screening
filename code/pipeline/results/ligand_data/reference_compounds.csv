@@ -1,0 +1,5 @@
+compound_name,chembl_id,pubchem_id,smiles,n_chembl_rows,n_pubchem_rows,present
+Ogerin,CHEMBL4548689,CID56707820,Nc1nc(NCc2ccccc2)nc(-c2ccccc2CO)n1,13,5,yes
+ZINC32547799,CHEMBL4460070,CID39791182,Nc1nc(NCc2ccccc2)nc(-c2cccc(CO)c2)n1,11,3,yes
+lorazepam,CHEMBL580,CID3958,O=C1Nc2ccc(Cl)cc2C(c2ccccc2Cl)=NC1O,4,0,yes
+MS48107,CHEMBL4449712,CID139030523,Nc1nc(NCc2ccc(Oc3ccccc3)cc2)nc(-c2c(F)cccc2CO)n1,5,3,yes
